@@ -4,6 +4,7 @@ export default function App() {
   const [number, setNumber] = useState(100)
 
   console.log({number, setNumber})
+  console.log("test git")
 
   function increment() {
     setNumber(number + 1)
